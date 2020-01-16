@@ -1,5 +1,8 @@
 Guide d'utilisation script traceroute
 
+Vous pouvez retrouver tout les documents a tout moment avec ce lien git:
+https://github.com/praimmfaya/Traceroute_public.git
+
 
 NB: ATTENTION le lancement du script create_dot.sh ou clean.sh va entrainer la 
 commande "rm *.txt" pour empecher ca, commentez la dernière ligne de
@@ -40,7 +43,6 @@ Pour l'utilisation de traceroute j'ai principalement utilisé le man traceroute
 retrouvable ici :
 https://linux.die.net/man/8/traceroute
 
-Et enfin vous pouvez retrouver tout les documents a tout moment avec ce lien git:
 
 
 

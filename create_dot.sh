@@ -51,4 +51,18 @@ echo "Script fini"
 beep
 beep    #Petit son permettant d'être prévenu de la fin du programme
 beep
-./clean.sh
+t=0
+n=0
+clear=0
+#clear=1
+echo "yosh $clear"
+if [ $clear == 1 ]; then
+  while [ $t != $taille ];do
+    ./clean.sh ${address[$t]}.txt
+    ((t=t+1))
+  done
+  while [ $n != $taille ];do
+    ./clean.sh $n.txt
+    ((n=n+1))
+  done
+fi
